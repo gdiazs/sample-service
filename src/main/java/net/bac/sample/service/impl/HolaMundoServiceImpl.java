@@ -8,7 +8,7 @@ import net.bac.sample.service.HolaMundoService;
  * @author gdiazs
  */
 @Component
-public class HolaMundoServiceImpl implements HolaMundoService{
+class HolaMundoServiceImpl implements HolaMundoService{
 
   @Override
   public String decirHola() {

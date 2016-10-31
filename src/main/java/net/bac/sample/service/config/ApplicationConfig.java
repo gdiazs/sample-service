@@ -1,12 +1,14 @@
 package net.bac.sample.service.config;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+
+import net.bac.sample.service.SampleConfig;
 
 /**
  * @author gdiazs
  */
 @Configuration
-@ComponentScan("net.bac.sample.service.impl")
+@Import(SampleConfig.class)
 public class ApplicationConfig {
 }
